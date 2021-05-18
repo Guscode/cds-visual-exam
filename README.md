@@ -63,3 +63,26 @@ cd cds-visual-exam
 bash create_vis_venv.sh
 source visvenv/bin/activate
 ```
+
+### Assignment 3 - Edge detection
+
+Go through the following steps to run assignment 3:
+
+This code will perform edge detection on a cropped version of jefferson.jpg and save the output image and text in /output.
+
+```bash
+cd assignment_3
+python3 detect_edges.py --image jefferson.jpg --crop-coordinates X750X700Y750Y1150 --psm 5 --output output
+```
+
+This code will perform edge detection on the images in the folder signs and save the output in /output.
+```bash
+cd assignment_3
+python3 detect_edges.py --image-files signs --output output
+```
+
+Type: ```python3 edge_detection.py -h``` for a detailed guide on how to specify script-parameters. 
+
+
+For details and results see [```assignment_3/README.md```](https://github.com/Guscode/cds-visual-exam/tree/main/assignment_3)
+
