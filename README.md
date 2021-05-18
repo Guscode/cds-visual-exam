@@ -1,5 +1,3 @@
-# cds-visual-exam
-
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
@@ -12,8 +10,10 @@
 
 
   <p align="center">
-    Gustav Aarup Lauridsen
+    Gustav Aarup Lauridsen 
     <br />
+  <p align="center">
+    ID: au593405 
   </p>
 </p>
 
@@ -39,3 +39,27 @@
     <li><a href="#contact">Contact</a></li>
   </ol>
 </details>
+
+<!-- PROJECT INFO -->
+## Project info
+
+This repository contains assignments and descriptions regarding an exam in cultural data science at Aarhus Univerisy [_Visual Analytics_](https://kursuskatalog.au.dk/en/course/101992/Visual-Analytics). The three class assignments are included in this repository, and the self-assigned project is found at LINK. 
+
+The class assignments included in this portfolio are:
+* Assignment 3 - _Edge detection_
+* Assignment 4 - _Logistic Regression and Neural Network benchmark mnist classification_
+* Assignment 5 - _CNN classification of impressionist paintings_
+
+<!-- HOW TO RUN -->
+## How to run
+
+To run the assignments, you need to go through the following steps in your bash-terminal to configure a virtual environment on Worker02 (or your local machine) with the needed prerequisites for the class assignments:
+
+__Setting up virtual environment and downloading data__
+```bash
+cd {directory where you want the assignment saved)
+git clone https://github.com/Guscode/cds-visual-exam.git
+cd cds-visual-exam
+bash create_vis_venv.sh
+source visvenv/bin/activate
+```
