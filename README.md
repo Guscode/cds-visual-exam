@@ -86,3 +86,44 @@ Type: ```python3 edge_detection.py -h``` for a detailed guide on how to specify 
 
 For details and results see [```assignment_3/README.md```](https://github.com/Guscode/cds-visual-exam/tree/main/assignment_3)
 
+### Assignment 4 - Classification Benchmarks
+
+Go through the following steps to run assignment 4:
+
+This code will perform classification on the mnist dataset (Lecun, 2010) using logistic regression and a neural network.
+Logistic regression:
+```bash
+cd assignment_4
+python src/lr-mnist.py -m download -ts 0.1 -t test.png -o outputs
+```
+
+Neural Network:
+```bash
+python src/nn-mnist.py -m download -ts 0.1 -t test.png -s outputs
+```
+
+Type: ```python src/nn-mnist.py -h``` for a detailed guide on how to specify script-parameters. 
+
+
+For details and results see [```assignment_4/README.md```](https://github.com/Guscode/cds-visual-exam/tree/main/assignment_4)
+
+### Assignment 5 - CNNs on cultural image data
+
+Go through the following steps to run assignment 4:
+
+This code will train a convulutional neural network on images from impressionist painters, as found here [```assignment_4/README.md```](https://www.kaggle.com/delayedkarma/impressionist-classifier-data)
+```bash
+cd assignment_4
+python src/lr-mnist.py -m download -ts 0.1 -t test.png -o outputs
+```
+
+Neural Network:
+```bash
+python src/nn-mnist.py -m download -ts 0.1 -t test.png -s outputs
+```
+
+Type: ```python src/nn-mnist.py -h``` for a detailed guide on how to specify script-parameters. 
+
+
+For details and results see [```assignment_4/README.md```](https://github.com/Guscode/cds-visual-exam/tree/main/assignment_4)
+
