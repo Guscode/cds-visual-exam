@@ -111,7 +111,7 @@ For details and results see [```assignment_4/README.md```](https://github.com/Gu
 
 Go through the following steps to run assignment 4:
 
-This code will train a convulutional neural network on images from impressionist painters, as found here [```assignment_4/README.md```](https://www.kaggle.com/delayedkarma/impressionist-classifier-data)
+This code will train a convulutional neural network on images from impressionist painters, as found [here](https://www.kaggle.com/delayedkarma/impressionist-classifier-data)
 ```bash
 cd assignment_4
 python src/lr-mnist.py -m download -ts 0.1 -t test.png -o outputs
