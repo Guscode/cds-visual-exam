@@ -56,7 +56,7 @@ To run the assignments, you need to go through the following steps in your bash-
 
 __Setting up virtual environment and downloading data__
 ```bash
-cd {directory where you want the assignment saved)
+cd directory/where/you/want/the/assignment
 git clone https://github.com/Guscode/cds-visual-exam.git
 cd cds-visual-exam
 bash create_vis_venv.sh
