@@ -111,19 +111,25 @@ For details and results see [```assignment_4/README.md```](https://github.com/Gu
 
 Go through the following steps to run assignment 4:
 
-This code will train a convulutional neural network on images from impressionist painters, as found [here](https://www.kaggle.com/delayedkarma/impressionist-classifier-data)
+This code will train a convulutional neural network on images from impressionist painters, as found [here](https://www.kaggle.com/delayedkarma/impressionist-classifier-data).
+
 ```bash
-cd assignment_4
-python src/lr-mnist.py -m download -ts 0.1 -t test.png -o outputs
+cd assignment_5
+python cnn-artists.py -e 10 -t ../data/impressionist/training -v ../data/impressionist/validation
 ```
 
-Neural Network:
-```bash
-python src/nn-mnist.py -m download -ts 0.1 -t test.png -s outputs
-```
-
-Type: ```python src/nn-mnist.py -h``` for a detailed guide on how to specify script-parameters. 
+Type: ```python cnn-artists.py -h``` for a detailed guide on how to specify script-parameters. 
 
 
-For details and results see [```assignment_4/README.md```](https://github.com/Guscode/cds-visual-exam/tree/main/assignment_4)
+For details and results see [```assignment_5/README.md```](https://github.com/Guscode/cds-visual-exam/tree/main/assignment_5)
+
+
+### Self-assigned project - State of the art style-transfer for video
+
+The self-assigned project is hosted in this repo [```self_assigned_project```](https://github.com/Guscode/stylenet)
+
+This code will train a convulutional neural network on images from impressionist painters, as found [here](https://www.kaggle.com/delayedkarma/impressionist-classifier-data).
+
+
+
 
