@@ -23,8 +23,8 @@ The output will be a classification report and a confusion matrix heatmap - this
 The user defined arguments for lr-mnist.py are:
 
 ```bash
---mnist #specify either path to mnist dataset or download to use fetch_openml to download the whole dataset
---output #Path where you want the output files
+--mnist #specify either path to mnist dataset or download to use fetch_openml to download the whole dataset.
+--output #Path where you want the output files.
 --solver # specify solver algorithm - can be 'newton-cg', ‘sag’, ‘saga’ and ‘lbfgs’. default='saga'.
 --penalty # Specify norm used in penalization, can be 'l2' or None. Default=None.
 --test_image # Path to an image on which you wish to test the model.
@@ -34,11 +34,12 @@ The user defined arguments for lr-mnist.py are:
 
 The user defined arguments for nn-mnist.py are:
 ```bash
---mnist #specify either path to mnist dataset or download to use fetch_openml to download the whole dataset
---output #Path where you want the output files
---layers # specify hidden layers, default = 32 16
---epochs # Specify amount of epochs, default = 100
---save_model_path # Path to which you want to save the trained model
+--mnist #specify either path to mnist dataset or download to use fetch_openml to download the whole dataset.
+--output #Path where you want the output files.
+--layers # specify hidden layers, default = 32 16.
+--test_split #Spcifies train/test split, default = 0.2.
+--epochs # Specify amount of epochs, default = 100.
+--save_model_path # Path to which you want to save the trained model.
 --test_image # Path to an image on which you wish to test the model.
 ```
 
