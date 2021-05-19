@@ -17,7 +17,7 @@ python nn-mnist.py --mnist download --output outputs
 
 The output will be a classification report and a confusion matrix heatmap - this shows the results from lr-mnist.py.
 <a href="https://github.com/Guscode/cds-visual-exam-2021">
-    <img src="/Assignment_4/outputs/heatmap.png" alt="Logo" width="500" height="300">
+    <img src="/Assignment_4/outputs/heatmap.png" alt="Logo" width="500" height="350">
 </a>
 
 
