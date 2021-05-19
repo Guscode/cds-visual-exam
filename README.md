@@ -83,7 +83,7 @@ python3 detect_edges.py --image-files signs --output output
 Type: ```python3 edge_detection.py -h``` for a detailed guide on how to specify script-parameters. 
 
 
-For details and results see [```assignment_3/README.md```](https://github.com/Guscode/cds-visual-exam/tree/main/assignment_3)
+For details and results see [```Assignment_3/README.md```](https://github.com/Guscode/cds-visual-exam/tree/main/Assignment_3)
 
 ### Assignment 4 - Classification Benchmarks
 
@@ -104,7 +104,7 @@ python src/nn-mnist.py -m download -ts 0.1 -t test.png -s outputs
 Type: ```python src/nn-mnist.py -h``` for a detailed guide on how to specify script-parameters. 
 
 
-For details and results see [```assignment_4/README.md```](https://github.com/Guscode/cds-visual-exam/tree/main/assignment_4)
+For details and results see [```Assignment_4/README.md```](https://github.com/Guscode/cds-visual-exam/tree/main/Assignment_4)
 
 ### Assignment 5 - CNNs on cultural image data
 
@@ -120,7 +120,7 @@ python cnn-artists.py -e 10 -t ../data/impressionist/training -v ../data/impress
 Type: ```python cnn-artists.py -h``` for a detailed guide on how to specify script-parameters. 
 
 
-For details and results see [```assignment_5/README.md```](https://github.com/Guscode/cds-visual-exam/tree/main/assignment_5)
+For details and results see [```Assignment_5/README.md```](https://github.com/Guscode/cds-visual-exam/tree/main/Assignment_5)
 
 
 ### Self-assigned project - State of the art style-transfer for video
