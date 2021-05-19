@@ -12,8 +12,19 @@ For better results, you can include cropping coordinates to crop the image as cl
 python detect_edges.py --image jefferson.jpg --crop-coordinates X750X700Y750Y1150
 ```
 
-The results without cropping                           The results with cropping:
+The results without cropping and the results with cropping:
 <a href="https://github.com/Guscode/cds-visual-exam-2021">
-    <img src="/Assignment_3/results/jeffersons.png" alt="Logo" width="900" height="900">
+    <img src="/Assignment_3/results/jeffersons.png" alt="Logo" width="1100" height="900">
 </a>
+
+The script also includes the possibility to perform edge-detection on multiple images.
+```bash
+python detect_edges.py --image-files signs
+```
+The results:
+<a href="https://github.com/Guscode/cds-visual-exam-2021">
+    <img src="/Assignment_3/results/city_signs.png" alt="Logo" width="900" height="900">
+</a>
+
+
 
