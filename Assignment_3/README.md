@@ -22,9 +22,20 @@ The script also includes the possibility to perform edge-detection on multiple i
 python detect_edges.py --image-files signs
 ```
 The results:
+
 <a href="https://github.com/Guscode/cds-visual-exam-2021">
     <img src="/Assignment_3/results/city_signs.png" alt="Logo" width="900" height="900">
 </a>
 
+The user defined arguments are:
+
+```bash
+--image #Path to an image
+--output #Path where you want the output files
+--crop-coordinates # X and Y coordinates for cropping image in X1X2Y1Y2 format.
+--image-files #Path to a folder with images. script takes all files from folder with .jpg, .jpeg or .png
+--psm #Specifies page segmentation method. see below for specifications.
+
+```
 
 
