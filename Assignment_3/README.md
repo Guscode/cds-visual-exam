@@ -59,4 +59,32 @@ Page segmentation modes:
   --psm 13   Raw line. Treat the image as a single text line, bypassing hacks that are Tesseract-specific.
 ```
 
+With the cropped jefferson image, it is fair to use psm 6, as it assumes a single block of vertically aligned text.
+
+```bash
+python detect_edges.py --image jefferson.jpg --crop-coordinates X750X700Y750Y1150 --psm 6 --output results
+```
+
+With the cropped image and psm 6, the output .txt file reads:
+
+WE HOLD THESE TRUTHS TO BE SELF <br/>  
+EVIDENT: THAT ALL MEN ARE CREATED <br/>
+EQUAL, THAT. THEY ARB ENDOWED BY THEIR <br/>
+CREATOR WITH CERTAIN INALIENABLE \ <br/>
+RIGHTS, AMONG THESE ARE #IFE. LIBERTY <br/>
+AND THE PURSUIT OF HAPPINESS. THAT <br/>
+TO SECURE THESE RIGHTS _sittcabines a <br/>
+ARE INSTIFUTED AMONG MEN. WE: <br/>
+SOLEMNLY PUBLISH AND DECEARE THA] <br/>
+THESE COLONIES ARE AND OF RIGHT
+
+
+OUGHT TO BE FREE AND INDEPEN DENT <br/>
+STATES: ‘AND FORTHE SUPPORT OF THIS <br/>
+DECLARATION, WITH A FIRM RELIANCE <br/>
+ON THE PROTECTION OF DIVINE <br/>
+PROVIDENCE, WE MUTUALLY PLEDGE <br/>
+OUR LIVES,/OUR FORTUNES-AND OUR <br/>
+
+SACRED HONOUR. <br/>
 
