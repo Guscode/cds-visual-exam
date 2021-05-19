@@ -27,6 +27,8 @@ The results:
     <img src="/Assignment_3/results/city_signs.png" alt="Logo" width="900" height="900">
 </a>
 
+
+
 The user defined arguments are:
 
 ```bash
@@ -36,6 +38,25 @@ The user defined arguments are:
 --image-files #Path to a folder with images. script takes all files from folder with .jpg, .jpeg or .png
 --psm #Specifies page segmentation method. see below for specifications.
 
+```
+
+Page segmentation modes:
+
+```bash
+  --psm 0    Orientation and script detection (OSD) only.
+  --psm 1    Automatic page segmentation with OSD.
+  --psm 2    Automatic page segmentation, but no OSD, or OCR.
+  --psm 3    Fully automatic page segmentation, but no OSD. (Default)
+  --psm 4    Assume a single column of text of variable sizes.
+  --psm 5    Assume a single uniform block of vertically aligned text.
+  --psm 6    Assume a single uniform block of text.
+  --psm 7    Treat the image as a single text line.
+  --psm 8    Treat the image as a single word.
+  --psm 9    Treat the image as a single word in a circle.
+  --psm 10   Treat the image as a single character.
+  --psm 11   Sparse text. Find as much text as possible in no particular order.
+  --psm 12   Sparse text with OSD.
+  --psm 13   Raw line. Treat the image as a single text line, bypassing hacks that are Tesseract-specific.
 ```
 
 
