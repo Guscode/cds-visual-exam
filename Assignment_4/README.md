@@ -10,7 +10,7 @@ To test the logistic regression, in the virtual environment, please run:
 python lr-mnist.py --mnist download --output outputs 
 ```
 
-To test the logistic regression, in the virtual environment, please run:
+To test the neural network, in the virtual environment, please run:
 ```bash
 python nn-mnist.py --mnist download --output outputs 
 ```
@@ -40,7 +40,7 @@ The user defined arguments for nn-mnist.py are:
 --output #Path where you want the output files.
 --layers # specify hidden layers, default = 32 16.
 --test_split #Spcifies train/test split, default = 0.2.
---epochs # Specify amount of epochs, default = 100.
+--epochs # Specify number of epochs, default = 100.
 --save_model_path # Path to which you want to save the trained model.
 --test_image # Path to an image on which you wish to test the model.
 ```
