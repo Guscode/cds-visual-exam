@@ -194,7 +194,7 @@ def main():
                     help="Specify learning rate")
     ap.add_argument("--hidden-layers", required=False,
                     default = 32, type = int,
-                    help="Specify amount of hidden layers")
+                    help="Specify amount of neurons in hidden layer")
     ap.add_argument("-o","--output", required=False,
                     default = None, type = str,
                     help="Specify output path")
