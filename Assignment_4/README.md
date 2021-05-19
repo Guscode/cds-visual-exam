@@ -20,9 +20,30 @@ The output will be a classification report and a confusion matrix heatmap - this
     <img src="/Assignment_4/outputs/heatmap.png" alt="Logo" width="500" height="350">
 </a>
 
+The user defined arguments for lr-mnist.py are:
 
-This will return a contoured version of the original image as well as a text file generated with pytesseract.
-For better results, you can include cropping coordinates to crop the image as closely to the text as possible, in order to reduce noise:
 ```bash
-python detect_edges.py --image jefferson.jpg --crop-coordinates X750X700Y750Y1150
+--mnist #specify either path to mnist dataset or download to use fetch_openml to download the whole dataset
+--output #Path where you want the output files
+--solver # specify solver algorithm - can be 'newton-cg', ‘sag’, ‘saga’ and ‘lbfgs’. default='saga'.
+--penalty # Specify norm used in penalization, can be 'l2' or None. Default=None.
+--test_image # Path to an image on which you wish to test the model.
+ 
+```
+
+
+The user defined arguments for nn-mnist.py are:
+```bash
+--mnist #specify either path to mnist dataset or download to use fetch_openml to download the whole dataset
+--output #Path where you want the output files
+--layers # specify hidden layers, default = 32 16
+--epochs # Specify amount of epochs, default = 100
+--save_model_path # Path to which you want to save the trained model
+--test_image # Path to an image on which you wish to test the model.
+```
+
+
+Using all the parameters:
+```bash
+python src/nn-mnist.py --mnist download --test-split 0.1 -- layers 16 8 --test_image test.png --output outputs --save_model_path outputs
 ```
