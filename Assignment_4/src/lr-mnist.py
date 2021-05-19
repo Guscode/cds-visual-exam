@@ -10,7 +10,7 @@ import pandas as pd
 
 # Import teaching utils
 import numpy as np
-from assignment_4.utils import classifier_utils as clf_util
+from Assignment_4.utils import classifier_utils as clf_util
 import matplotlib.pyplot as plt
 from sklearn.metrics import confusion_matrix
 import seaborn as sns
