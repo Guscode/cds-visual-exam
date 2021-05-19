@@ -20,6 +20,8 @@ The output will be a classification report and a confusion matrix heatmap - this
     <img src="/Assignment_4/outputs/heatmap.png" alt="Logo" width="500" height="350">
 </a>
 
+
+# User Defined Parameters
 The user defined arguments for lr-mnist.py are:
 
 ```bash
@@ -48,3 +50,13 @@ Using all the parameters:
 ```bash
 python src/nn-mnist.py --mnist download --test-split 0.1 -- layers 16 8 --test_image test.png --output outputs --save_model_path outputs
 ```
+
+# Loading saved model
+
+When using save_model_path, the script will output a trained model file called nn_model.pkl. <b\>
+To reuse the model, use joblib.load to load the model from the filename.
+```bash
+loaded_model = joblib.load(os.path.join("path_to_dir", "nn_model.pkl"))
+result = loaded_model.score(X_test, Y_test)
+```
+
