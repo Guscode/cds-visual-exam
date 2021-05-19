@@ -56,6 +56,9 @@ python src/nn-mnist.py --mnist download --test-split 0.1 -- layers 16 8 --test_i
 When using save_model_path, the script will output a trained model file called nn_model.pkl. <b\>
 To reuse the model, use joblib.load to load the model from the filename.
 ```bash
+import os
+import joblib
+
 loaded_model = joblib.load(os.path.join("path_to_dir", "nn_model.pkl"))
 result = loaded_model.score(X_test, Y_test)
 ```
