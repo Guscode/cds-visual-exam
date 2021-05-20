@@ -42,7 +42,7 @@
 <!-- PROJECT INFO -->
 ## Project info
 
-This repository contains assignments and descriptions regarding an exam in cultural data science at Aarhus Univerisy [_Visual Analytics_](https://kursuskatalog.au.dk/en/course/101992/Visual-Analytics). The three class assignments are included in this repository, and the self-assigned project is found at LINK. 
+This repository contains assignments and descriptions regarding an exam in cultural data science at Aarhus University [_Visual Analytics_](https://kursuskatalog.au.dk/en/course/101992/Visual-Analytics). The three class assignments are included in this repository, and the self-assigned project is found at LINK. 
 
 The class assignments included in this portfolio are:
 * Assignment 3 - _Edge detection_
