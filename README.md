@@ -36,7 +36,7 @@
 ## Project info
 
 This repository contains assignments and descriptions regarding an exam in cultural data science at Aarhus University [_Visual Analytics_](https://kursuskatalog.au.dk/en/course/101992/Visual-Analytics). The three class assignments are included in this repository, and the self-assigned project is found at [here](https://github.com/Guscode/GLStyleNet_TF2_Video).
-In an effort to keep the repositories as concise as possible, methods and discussion is only included in the [paper](https://github.com/Guscode/cds-visual-exam/blob/main/Visual_analytics_exam.pdf)
+In an effort to keep the repositories as concise as possible, methods and discussion is only included in the [paper](https://github.com/Guscode/cds-visual-exam/blob/main/Visual_analytics_exam.pdf). Similarly, structure descriptions were purpusefully left out, as I prefer a short readme.
 
 The class assignments included in this portfolio are:
 * Assignment 3 - _Edge detection_
