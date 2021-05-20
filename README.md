@@ -52,6 +52,7 @@ The class assignments included in this portfolio are:
 <!-- HOW TO RUN -->
 ## How to run
 
+All scripts have been created and tested using python 3.8.6 on Linux
 To run the assignments, you need to go through the following steps in your bash-terminal to configure a virtual environment on Worker02 (or your local machine) with the needed prerequisites for the class assignments:
 
 __Setting up virtual environment and downloading data__
