@@ -2,6 +2,7 @@
 
 The goal of this assignment is to compare the classification performance of multinomial logistic regression and a neural network on the mnist handwritten digits dataset. The scripts lr-mnist.py and nn-mnist.py will perform training and validation and output the results as a classification report and a confusion matrix heatmap.
 
+### How to run
 
 To run this code, please follow the guide for activating the virtual environment in [cds-visual-exam](https://github.com/Guscode/cds-visual-exam).
 
