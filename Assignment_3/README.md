@@ -4,12 +4,13 @@ To run this code, please follow the guide for activating the virtual environment
 
 To test the script, in the virtual environment, please run:
 ```bash
-python detect_edges.py --image jefferson.jpg
+cd Assignment_3
+python detect_edges.py --image results/jefferson.jpg
 ```
 This will return a contoured version of the original image as well as a text file generated with pytesseract.
 For better results, you can include cropping coordinates to crop the image as closely to the text as possible, in order to reduce noise:
 ```bash
-python detect_edges.py --image jefferson.jpg --crop-coordinates X750X700Y750Y1150
+python detect_edges.py --image results/jefferson.jpg --crop-coordinates X750X700Y750Y1150
 ```
 
 The results without cropping and the results with cropping:
@@ -64,7 +65,7 @@ Page segmentation modes:
 With the cropped jefferson image, it is fair to use psm 6, as it assumes a single block of vertically aligned text.
 
 ```bash
-python detect_edges.py --image jefferson.jpg --crop-coordinates X750X700Y750Y1150 --psm 6 --output results
+python detect_edges.py --image results/jefferson.jpg --crop-coordinates X750X700Y750Y1150 --psm 6 --output results
 ```
 
 With the cropped image and psm 6, the output .txt file reads:
