@@ -1,5 +1,9 @@
 # Assignment 5:
 
+The goal of this assignment is to classify impressionistic art using a convolutional neural network. The script cnn-artists.py performs training and validation and outputs the results as a history plot and a classification report.
+
+### How to run
+
 To run this code, please follow the guide for activating the virtual environment in [cds-visual-exam](https://github.com/Guscode/cds-visual-exam).
 
 The script cnn-artists.py will train a convolutional neural network a dataset with impressionist painters found [here](https://www.kaggle.com/delayedkarma/impressionist-classifier-data)
