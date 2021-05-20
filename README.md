@@ -35,7 +35,8 @@
 <!-- PROJECT INFO -->
 ## Project info
 
-This repository contains assignments and descriptions regarding an exam in cultural data science at Aarhus University [_Visual Analytics_](https://kursuskatalog.au.dk/en/course/101992/Visual-Analytics). The three class assignments are included in this repository, and the self-assigned project is found at LINK. 
+This repository contains assignments and descriptions regarding an exam in cultural data science at Aarhus University [_Visual Analytics_](https://kursuskatalog.au.dk/en/course/101992/Visual-Analytics). The three class assignments are included in this repository, and the self-assigned project is found at [here](https://github.com/Guscode/GLStyleNet_TF2_Video).
+In an effort to keep the repositories as concise as possible, methods and discussion is only included in the [paper](https://github.com/Guscode/cds-visual-exam/blob/main/Visual_analytics_exam.pdf)
 
 The class assignments included in this portfolio are:
 * Assignment 3 - _Edge detection_
@@ -119,7 +120,7 @@ For details and results see [```Assignment_5/README.md```](https://github.com/Gu
 
 ### Self-assigned project - State of the art style-transfer for video
 
-The self-assigned project is hosted in this repo [```self_assigned_project```](https://github.com/Guscode/stylenet)
+The self-assigned project is hosted in this repo [```self_assigned_project```](https://github.com/Guscode/GLStyleNet_TF2_Video)
 
 ### Acknowledgements
 
