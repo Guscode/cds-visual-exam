@@ -22,13 +22,10 @@
 <details open="open">
   <summary>Table of Contents</summary>
   <ol>
-      <a href="#portfolio-assignments">Portfolio assignments</a>
-      <ul>
-        <li><a href="#assignment-3---edge-detection">Assignment 3 - Edge detection</a></li>
-        <li><a href="#assignment-4---logistic-regression-and-neural-network-benchmark-mnist-classification">Assignment 4 - Logistic Regression and Neural Network benchmark mnist classification</a></li>
-        <li><a href="#assignment-5---cnn-classification-of-impressionist-paintings">Assignment 5 - CNN classification of impressionist paintings</a></li>
-        <li><a href="#self-assigned-project">self-assigned project</a></li>
-      </ul>
+      <li><a href="#assignment-3---edge-detection">Assignment 3 - Edge detection</a></li>
+      <li><a href="#assignment-4---logistic-regression-and-neural-network-benchmark-mnist-classification">Assignment 4 - Logistic Regression and Neural Network benchmark mnist classification</a></li>
+      <li><a href="#assignment-5---cnn-classification-of-impressionist-paintings">Assignment 5 - CNN classification of impressionist paintings</a></li>
+      <li><a href="#self-assigned-project">self-assigned project</a></li>
     </li>
     <li><a href="#acknowledgements">Acknowledgements</a></li>
     <li><a href="#contact">Contact</a></li>
