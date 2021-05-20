@@ -7,12 +7,12 @@ These scripts will test the image classification performance of a logistic regre
 
 To test the logistic regression, in the virtual environment, please run:
 ```bash
-python lr-mnist.py --mnist download --output outputs 
+python src/lr-mnist.py --mnist download --output outputs 
 ```
 
 To test the neural network, in the virtual environment, please run:
 ```bash
-python nn-mnist.py --mnist download --output outputs 
+python src/nn-mnist.py --mnist download --output outputs 
 ```
 
 The output will be a classification report and a confusion matrix heatmap - this shows the results from lr-mnist.py.
