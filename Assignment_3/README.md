@@ -1,5 +1,7 @@
 # Assignment 3: Edge Detection
 
+The goal of the assignment is to find text and characters using edge detection. The script detect_edges.py will take either one or multiple images and input, and output contoured images as well as text files generated with tesseract. 
+
 To run this code, please follow the guide for activating the virtual environment in [cds-visual-exam](https://github.com/Guscode/cds-visual-exam).
 
 To test the script, in the virtual environment, please run:
