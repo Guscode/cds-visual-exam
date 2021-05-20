@@ -121,8 +121,6 @@ For details and results see [```Assignment_5/README.md```](https://github.com/Gu
 
 The self-assigned project is hosted in this repo [```self_assigned_project```](https://github.com/Guscode/stylenet)
 
-This code will train a convulutional neural network on images from impressionist painters, as found [here](https://www.kaggle.com/delayedkarma/impressionist-classifier-data).
-
 ### Acknowledgements
 
 * [Ross Deans Kristensen-McLachlan](https://github.com/rdkm89) for teaching and invaluable coding help
