@@ -22,10 +22,6 @@
 <details open="open">
   <summary>Table of Contents</summary>
   <ol>
-    <li><a href="#Exam-information">Exam Info</a></li>
-    <li><a href="#setup">Setup</a></li>
-    <li><a href="#repository-structure">Repository structure</a></li>
-    <li>
       <a href="#portfolio-assignments">Portfolio assignments</a>
       <ul>
         <li><a href="#assignment-3---edge-detection">Assignment 3 - Edge detection</a></li>
@@ -138,7 +134,8 @@ This code will train a convulutional neural network on images from impressionist
 * [Johan Horsmans](https://github.com/JohanHorsmans) for helping with readme structure and being a stand up guy
 * [Emil Jessen](https://github.com/emiltj) for helping with readme structure and being a stand up guy
 
-
+## Contact
+For contact, please reach out to me on:  201804481@post.au.dk
 
 
 
