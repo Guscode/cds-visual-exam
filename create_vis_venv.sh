@@ -15,6 +15,7 @@ pip install matplotlib
 pip install opencv-python
 pip install pytesseract
 
+
 python -m ipykernel install --user --name=$VENVNAME
 
 test -f requirements.txt && pip install -r requirements.txt
