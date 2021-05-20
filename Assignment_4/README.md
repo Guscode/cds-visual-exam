@@ -7,6 +7,7 @@ These scripts will test the image classification performance of a logistic regre
 
 To test the logistic regression, in the virtual environment, please run:
 ```bash
+cd Assignment_4
 python src/lr-mnist.py --mnist download --output outputs 
 ```
 
