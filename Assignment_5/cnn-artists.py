@@ -181,9 +181,9 @@ def main():
     #Let users define # of epochs
     ap.add_argument("-e","--epochs", default = 10,type = int,
                     help="Specify amount of epochs, default: 10" )
-    ap.add_argument("-t","--training_path", required=True,type = str,
+    ap.add_argument("-t","--training-path", required=True,type = str,
                     help="Specify training path" )
-    ap.add_argument("-v","--validation_path", required=True,type = str,
+    ap.add_argument("-v","--validation-path", required=True,type = str,
                     help="Specify validation path" )
     ap.add_argument("-s","--image-size", required=False,
                     default = "H200W200", type = str,
